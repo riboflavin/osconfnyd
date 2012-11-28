@@ -1,0 +1,202 @@
+/*
+#header {
+  padding: 2em 0 0;
+}
+
+#header .brand {
+  float: left;
+  margin: 0 1em 2em 0;
+}
+
+#header #site-name-slogan {
+  float: left;
+  margin: 0 0 2em;
+}
+
+#navbar {
+  clear: both;
+}
+
+#navbar .slogan {
+  float: left;
+  display: block;
+  margin-left:-10px;
+  padding: 11px 0px 0px;
+  font-size:15px;
+  line-height: 1;
+}
+*/
+
+#navbar,
+#main-content,
+.page-header,
+article header 
+{
+  display: none;
+}
+
+#webform-component-fieldset--email
+{
+/*  float: left;
+  margin-right: 10px;
+*/}
+
+#webform-client-form-3
+{
+  background-color: whitesmoke;
+  padding: 30px;
+  margin-top:35px;
+  opacity: .9;
+}
+
+#webform-component-participate,
+#webform-component-email,
+#webform-component-talk-descriptions,
+#edit-submitted-talk-description,
+#webform-component-looking-for
+{
+  margin-left: 120px;
+}
+
+#webform-component-email
+{
+  float:left;
+  margin-right: 10px;
+}
+
+#webform-component-id-like-to
+{
+}
+
+#edit-submitted-talk-description
+{
+  width: 600px;
+}
+
+.dottedborder
+{
+  border-bottom: 1px dashed gray;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.featurebox,
+#sponsorblock
+{
+  opacity: .9;
+  background: whitesmoke;
+  padding: 30px;
+}
+
+#sponsorblock
+{
+  margin-top: -70px;
+}
+
+.sponsorimage
+{
+  height: 40px;
+  display: inline;
+  margin-right: 30px;
+  /*float: left;*/
+}
+
+#attrib
+{
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+
+body {
+  padding-top: 40px;
+  background-image: url('/sites/all/themes/osconfnyd/css/ntrain.jpg');
+  background-size: 150%;
+  background-repeat: no-repeat;
+}
+
+/* Fix Toolbar for .navbar-fixed-top */
+body.toolbar .navbar-fixed-top {
+ top: 30px;
+}
+
+body.toolbar-drawer .navbar-fixed-top {
+ top: 65px;
+}
+
+@media(min-width: 980px) {
+  body.toolbar { padding-top: 90px !important; }
+  body.toolbar-drawer { padding-top: 125px !important; }
+}
+
+html.overlay-open .navbar-fixed-top {
+  z-index: 400;
+}
+
+/* Admin toolbar fix */
+body.admin-expanded.admin-vertical.admin-nw .navbar,
+body.admin-expanded.admin-vertical.admin-sw .navbar {
+  margin-left: 260px;
+}
+
+div#admin-toolbar {
+  z-index: 500;
+}
+
+.submitted {
+  margin-bottom: 1em;
+  font-style: italic;
+  font-weight: normal;
+  color: #777;
+}
+
+/* System base fix */
+.container-inline div, .container-inline label {
+  display: block;
+}
+
+/* Default form fields to auto */
+input, textarea, select, .uneditable-input {
+  width:auto;
+}
+
+/* throbber fix */
+html.js input.form-autocomplete {
+  background-position: 100% 7px; /* LTR */
+  background-repeat: no-repeat;
+}
+html.js input.throbbing {
+  background-position: 100% -13px; /* LTR */
+}
+
+.navbar-search .control-group {
+  margin-bottom:0px;
+}
+
+input.error {
+  color: #B94A48;
+  border-color: #B94A48;
+}
+
+h4.alert-heading,
+.close
+{
+display: none;
+}
+
+.footer {
+  margin-top: 45px;
+  padding: 35px 0 36px;
+  border: none;
+}
+
+.ajax-progress .throbber {
+  background:url(/sites/default/files/images/spinner2.gif) no-repeat right center;
+  float: left; /* LTR */
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
+}
